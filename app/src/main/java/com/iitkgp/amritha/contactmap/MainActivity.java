@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
 
                 File dir = Environment.getExternalStorageDirectory();
-                File file = new  File(Environment.getExternalStorageDirectory().getAbsolutePath(), "text.txt");
+                File file = new  File(Environment.getExternalStorageDirectory().getAbsolutePath(), "contacts.txt");
                 ArrayList<HashMap> list=new ArrayList<HashMap>();
                 if(file.exists()){
                     //Read text from file
